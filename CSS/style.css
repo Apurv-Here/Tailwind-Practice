@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.line1 {
+    /* transform: rotateX(45deg); */
+    /* transform: rotate(45deg); */
+    transform-origin: 0% 0%;
+    transform: rotate(45deg);
+}
+
+.line2 {
+    /* transform: rotateX(45deg); */
+    /* transform: rotate(45deg); */
+    opacity: 0;
+    
+}
+
+.line3 {
+    /* transform: rotateX(45deg); */
+    /* transform: rotate(-45deg); */
+    transform-origin: 0% 0%;
+    transform: rotate(-45deg);
+}
+
+.box1 {
+    /* transform: rotateX(45deg); */
+    transform: rotate(90deg);
+}
+
+.change {
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: green;
+    color: black;
+    margin: 20px auto;
+    height: 300px;
+    width: 300px;
+}

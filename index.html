@@ -1,56 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind Practice</title>
-    <link rel="stylesheet" href="/input.css">
+    <title>poster</title>
+    <link rel="stylesheet" href="/CSS/input.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="/Javascript/chage_css.js"></script>
 </head>
+
 <body>
-
-    <div class="h-64 bg-pink-600 flex justify-center my-12">
-
-        <div class="w-full h-full bg-lime-200 mx-16 flex justify-between">
-
-            <!-- div for left arrow -->
-            <div class="w-10 bg-black flex items-center justify-center my-4">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAoCAYAAADKSBvHAAAB3UlEQVQ4jZWVvWtUQRTFf7sRBZtYWKmFX1xbsVDQQv0DxCYJsdA+QSEICiIoiiBRCAHF9EkRQtIEe4OFIhYhhULe8bNQKwVtBEFdufheuMy+2bc51dwz53Bm99070+p0OjRB0iDwCrjdblT/xzVgDzDRmCBpL7AObAP+9JNwtxQ72j0TJB0DXgTqdTZBUguYSujZXkcaAo6H+jPwsNYgyc88mdDXzexnLuESsC/Uq8CcL7p+tKSdwFtgMNCnzOypL+oSbibi5UrcZZB0CBgL1G/gatSkCfeBgVA/MjPVGiSdBs6Eve/ebOl526W4XfOR7pjZt1oDcAE4HPj3wINU7GgVRbEdeAPsCvywmS3VGTxhIhE/y4krw/mEu5wTV4YDoZ43s5dNhk3BDe+C4Zyko00JcwmXfo8uwzTwJXAnJA1lDT4UPhwJPylpay7BMQusBX5/OURd2BigsvmehD1vvoNpP238rWa2AjwOezuAG7kjVbjit1uoxyVZ1mBmBTATqC3AvV4JjlvAj1CflXQyazCzrz48CT1VDlm2l3x4PoT6SNXV2ctY0giwECi/Kq1Xty4Cz0O9G7i46eu+nxdoHhgty04/A+Tv269y/bfRYGYfyxFwFP2OqL9zn4Dpf1XPmg2RQQvQAAAAAElFTkSuQmCC" alt="left arrow">
-            </div>
-
-            <!-- div for middle main content -->
-            <div class=" bg-gray-700 my-4 mx-2 flex overflow-hidden">
-
-                <!-- first card -->
-                <div class="h-full w-56 mx-6 bg-white">
-                    <img src="/Images/img3.jpg" alt="">
-                </div>
-                <!-- second card -->
-                <div class="h-full w-56 mx-6 bg-white">
-                    <img src="/Images/img3.jpg" alt="">
-                </div>
-                <!-- third card -->
-                <div class="h-full w-56 mx-6 bg-white">
-                    <img src="/Images/img3.jpg" alt="">
-                </div>
-                <!-- fourth card -->
-                <div class="h-full w-56 mx-6 bg-white">
-                    <img src="/Images/img3.jpg" alt="">
-                </div>
-                
-        
-            </div>
-
-            <!-- div for right arrow -->
-            <div class="w-10 bg-black flex items-center justify-center my-4">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAoCAYAAADKSBvHAAAB3UlEQVQ4jZWVvWtUQRTFf7sRBZtYWKmFX1xbsVDQQv0DxCYJsdA+QSEICiIoiiBRCAHF9EkRQtIEe4OFIhYhhULe8bNQKwVtBEFdufheuMy+2bc51dwz53Bm99070+p0OjRB0iDwCrjdblT/xzVgDzDRmCBpL7AObAP+9JNwtxQ72j0TJB0DXgTqdTZBUguYSujZXkcaAo6H+jPwsNYgyc88mdDXzexnLuESsC/Uq8CcL7p+tKSdwFtgMNCnzOypL+oSbibi5UrcZZB0CBgL1G/gatSkCfeBgVA/MjPVGiSdBs6Eve/ebOl526W4XfOR7pjZt1oDcAE4HPj3wINU7GgVRbEdeAPsCvywmS3VGTxhIhE/y4krw/mEu5wTV4YDoZ43s5dNhk3BDe+C4Zyko00JcwmXfo8uwzTwJXAnJA1lDT4UPhwJPylpay7BMQusBX5/OURd2BigsvmehD1vvoNpP238rWa2AjwOezuAG7kjVbjit1uoxyVZ1mBmBTATqC3AvV4JjlvAj1CflXQyazCzrz48CT1VDlm2l3x4PoT6SNXV2ctY0giwECi/Kq1Xty4Cz0O9G7i46eu+nxdoHhgty04/A+Tv269y/bfRYGYfyxFwFP2OqL9zn4Dpf1XPmg2RQQvQAAAAAElFTkSuQmCC" alt="left arrow">
-            </div>
-
-
-
+    <div class="mt-24 bg-blue-400 flex justify-center" id="hamburger_menu">
+        <div class="hamburger inline-block p-2 bg-pink-300">
+            <div class="line line1 h-14 w-72 my-12 bg-black"></div>
+            <div class="line line2 h-14 w-72 my-12 bg-black"></div>
+            <div class="line line3 h-14 w-72 my-12 bg-black"></div>
         </div>
-
     </div>
-        
+
+    <!-- trick for onclick - hidden invisible lg:visible lg:flex -->
+
+    <!-- to change properties - bg-blue-600 border-red-700 -->
+    <div class="bg-gray-400 p-4">
+        <div class="box1 h-24 w-24 m-8 bg-red-500 border-2 border-black " id="cross_menu">
+            <h1 class="text-3xl font-bold text-white">box 1</h1>
+        </div>
+    </div>
+
+    <div class="box2" onclick="changColor()">this is a click even</div>
 </body>
+
 </html>
