@@ -1,6 +1,6 @@
-# Website Link - https://choubey-microsoft-clone.netlify.app/
+# Website Link - 
 
-# Clone of microsoft homepage (frontend only).
+# Repository to pratice Tailwindcss concepts
 
 # Tailwind CSS Setup
 
