@@ -8,28 +8,47 @@
     <title>poster</title>
     <link rel="stylesheet" href="/CSS/input.css">
     <link rel="stylesheet" href="/CSS/style.css">
-    <script src="/Javascript/chage_css.js"></script>
 </head>
 
 <body>
-    <div class="mt-24 bg-blue-400 flex justify-center" id="hamburger_menu">
+    <!-- <div class="mt-24 bg-blue-400 flex justify-center" id="hamburger_menu">
         <div class="hamburger inline-block p-2 bg-pink-300">
             <div class="line line1 h-14 w-72 my-12 bg-black"></div>
             <div class="line line2 h-14 w-72 my-12 bg-black"></div>
             <div class="line line3 h-14 w-72 my-12 bg-black"></div>
         </div>
-    </div>
+    </div> -->
 
     <!-- trick for onclick - hidden invisible lg:visible lg:flex -->
 
     <!-- to change properties - bg-blue-600 border-red-700 -->
-    <div class="bg-gray-400 p-4">
-        <div class="box1 h-24 w-24 m-8 bg-red-500 border-2 border-black " id="cross_menu">
-            <h1 class="text-3xl font-bold text-white">box 1</h1>
-        </div>
+
+    <div class="box-1">
+        <div class="box-2" id="BOX2"></div>
     </div>
 
-    <div class="box2" onclick="changColor()">this is a click even</div>
+    <!-- hamburger  -->
+    <div class="h-12 w-80 mx-auto my- bg-black flex justify-center items-center">
+        <div class="h-10 w-10 bg-white" id="hamMenu"></div>
+    </div>
+
+    <div class="h-48 w-48 mx-auto  bg-blue-600 flex justify-center items-center" id="menu1">
+        <div>menu box1</div>
+    </div>
+    <div class="h-48 w-48 mx-auto my- bg-red-600 flex justify-center items-center">
+        <div>menu box2</div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="/Javascript/chage_css.js"></script>
+
 </body>
 
 </html>

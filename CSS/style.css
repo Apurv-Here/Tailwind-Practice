@@ -26,19 +26,29 @@ body {
     transform: rotate(-45deg);
 }
 
-.box1 {
-    /* transform: rotateX(45deg); */
-    transform: rotate(90deg);
-}
-
-.change {
-    background-color: yellow;
-}
-
-.box2 {
-    background-color: green;
-    color: black;
-    margin: 20px auto;
+.box-1{
+    background: yellow;
     height: 300px;
     width: 300px;
+    border: solid 2px black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2{
+    background: purple;
+    height: 200px;
+    width: 200px;
+
+}
+
+.myClass {
+    background: green;
+}
+
+.gayab {
+    display: none;
+    visibility: hidden;
 }
