@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
-  },
+    "build": "npx tailwindcss -i ./input.css -o ./CSS/output.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./CSS/output.css --watch"
+  }, 
   "keywords": [],
   "author": "",
   "license": "ISC",

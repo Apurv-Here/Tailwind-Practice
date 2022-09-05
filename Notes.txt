@@ -1,0 +1,6 @@
+<div class="hamburger inline-block p-4 lg:hidden lg:invisible" id="hamburger3line"
+                        onclick="mobileMenuShow()">
+                        <div class=" h-0.5 w-6 my-1 bg-white  rotate-45 translate-y-1"></div>
+                        <!-- <div class=" h-0.5 w-6 my-1 bg-white"></div> -->
+                        <div class=" h-0.5 w-6 my-1 bg-white  -rotate-45 -translate-y-0.5"></div>
+                    </div>
